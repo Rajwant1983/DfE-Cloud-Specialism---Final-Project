@@ -19,7 +19,7 @@ def deleteSongs():
     conn.commit()
 
     print(f"Record {idField} deleted")
-    readSongs.readSongs() # invoke/calling readSongs from the readSong python application
+    readSongs.read() # invoke/calling readSongs from the readSong python application
     time.sleep(3)
 #deleteSongs()
 

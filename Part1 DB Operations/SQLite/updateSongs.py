@@ -19,6 +19,6 @@ def update():
     conn.commit()
     print(f"Record {idField} Updated")
     time.sleep(3)
-    readSongs.readSongs()
+    readSongs.read()
 
 #update()

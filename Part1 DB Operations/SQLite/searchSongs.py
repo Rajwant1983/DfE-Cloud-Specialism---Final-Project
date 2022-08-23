@@ -29,4 +29,4 @@ def search():
         print(f"The field {searchField} does not contain a {searchValue} in the database!")
    
     conn.close()
-search()
+#search()

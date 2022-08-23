@@ -26,7 +26,7 @@ while mainProgram == True:
     mainmenu = menuOptions()
 
     if mainmenu == "1":
-        readSongs.readSongs()
+        read()
     elif mainmenu == "2":
         add()
     elif mainmenu == "3":
@@ -37,6 +37,7 @@ while mainProgram == True:
         deleteSongs()
     else:
         mainProgram = False
+        
 input("Press enter to exit")
 
 
