@@ -1,4 +1,4 @@
-from dbConnect import *
+from dbconnect import *
 import readSongs # import readSongs application
 import time
 
@@ -27,5 +27,4 @@ def deleteSongs():
     # else:
     #cursor.execute("DELETE FROM songs WHERE SongID=" +idField) # songID (4) = 4
 
-   
-# deleteSongs()
+deleteSongs()

@@ -31,4 +31,4 @@ def addSongs():
     for record in row:
         print(record)
         
-addSongs() #call/invoke the function        
+# addSongs() #call/invoke the function        
