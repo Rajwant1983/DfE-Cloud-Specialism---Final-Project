@@ -2,7 +2,7 @@ from dbconnect import *
 import time
 
 #create a subroutine to add songs to the songs table in the dfemusic.db
-def addSongs():
+def add():
     # create an empty list
     songs=[]
 
@@ -31,4 +31,4 @@ def addSongs():
     for record in row:
         print(record)
         
-# addSongs() #call/invoke the function        
+# add() #call/invoke the function        

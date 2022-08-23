@@ -18,7 +18,7 @@ def deleteSongs():
 
     print(f"Record {idField} deleted")
     time.sleep(3)
-    readSongs.read() # invoke/calling readSongs from the readSong python application
+    readSongs.readSongs() # invoke/calling readSongs from the readSong python application
 
     # method2 to check if record exists
     # try except or use an if statement 
@@ -27,4 +27,4 @@ def deleteSongs():
     # else:
     #cursor.execute("DELETE FROM songs WHERE SongID=" +idField) # songID (4) = 4
 
-deleteSongs()
+#deleteSongs()

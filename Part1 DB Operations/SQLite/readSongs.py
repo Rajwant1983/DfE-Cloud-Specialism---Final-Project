@@ -7,4 +7,4 @@ def readSongs():
     for record in row:
         print(record)
         
-readSongs() #call/invoke the function  
+# read() #call/invoke the function  
