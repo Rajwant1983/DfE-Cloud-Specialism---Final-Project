@@ -36,8 +36,7 @@ while mainProgram == True:
     elif mainmenu == "5":
         deleteSongs()
     else:
-        mainProgram = False
-        
+        mainProgram = False       
 input("Press enter to exit")
 
 
